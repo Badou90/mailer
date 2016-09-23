@@ -1,13 +1,18 @@
 {
-    "name": "laravel/mailer",
-    "description": "PAckage for amurnet mail sender",
-    "version": "0.0.1",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Vyacheslav Goriachikh",
-            "email": "badou@yandex.ru"
-        }
-    ],
-    "require": {}
+  "type": "package",
+  "name": "amurnet/mailer",
+  "description": "Package for amurnet mail sender",
+  "version": "0.0.1",
+  "authors": [
+      {
+          "name": "Vyacheslav Goriachikh",
+          "email": "badou@yandex.ru"
+      }
+  ],
+  "autoload": {
+    "psr-4":  {
+      "Amurnet\\Mailer\\": "src/"
+    }
+  },
+  "require": {}
 }
