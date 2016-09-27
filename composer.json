@@ -14,5 +14,8 @@
       "Amurnet\\Mailer\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "php": ">=5.6.0",
+    "illuminate/support": "5.2.*"
+  }
 }
