@@ -23,9 +23,13 @@ class MailerServiceProvider extends ServiceProvider {
 
     public function boot()
     {
-        $configPath = __DIR__ . '/../config/mailer.php';
+        $configPath = __DIR__ . '/../../config/mailer.php';
         $this->publishes([$configPath => config_path('mailer.php')], 'mailer');
         $this->mergeConfigFrom($configPath, 'mailer');
+
+        $viewsPath = __DIR__ . '/../../views';
+        $this->loadViewsFrom($viewsPath, 'mailer');
+        $this->publishes([$viewsPath => resource_path('views/vendor/mailer')], 'mailer');
 
         $this->commands(SendMail::class);
     }

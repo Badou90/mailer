@@ -41,6 +41,6 @@ class SendMail extends Command {
      */
     public function handle()
     {
-        $this->mailer->send();
+        $response = $this->mailer->sendMail();
     }
 }
