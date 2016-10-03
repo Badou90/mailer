@@ -97,9 +97,11 @@ class MailerLite implements MailerContract {
      * Start mail sending compain
      * @return void
      */
-    public function startCampaigns()
+    public function startCampaigns($campaign_id, $action = 'send')
     {
+        $response = $this->client->request('POST', "campaigns/{$campaign_id}/actions/{$action}");
 
+        $response = $this->checkResponse($response);
     }
 
     /**
@@ -118,18 +120,15 @@ class MailerLite implements MailerContract {
      */
     public function sendMail()
     {
-        // $data = 'test data';
-        // dd($this->htmlView->with('data', $data)->render());
-
         $campaign_id = $this->createCampaigns();
         $this->addMailTemplateToCampaign($campaign_id);
-        $this->startCampaigns();
+        $this->startCampaigns($campaign_id);
     }
 
     /**
-     * [checkResponse description]
-     * @param  Response $response [description]
-     * @return [type]             [description]
+     * Check service response for errors
+     * @param  Response $response response from service
+     * @return Array              decoded response
      */
     protected function checkResponse(Response $response)
     {

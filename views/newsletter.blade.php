@@ -14,8 +14,8 @@
     <![endif]-->
 </head>
 
-<body style="background-color: #FF5F06;">
-    <div class="body" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #FF5F06; table-layout: fixed; text-align: center;">
+<body style="background-color: #f1f1f1;">
+    <div class="body" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #f1f1f1; table-layout: fixed; text-align: center;">
 
     <!--[if (gte mso 9)|(IE)]>
     <table width="600" align="center">
@@ -23,10 +23,10 @@
     <td valign="top" width="600" style="padding-left: 50px; padding-right:50px;">
     <![endif]-->
 
-        <table class="layout" cellpadding="0" align="center" style="background: #ffffff; border-collapse: collapse; border-left: 3px solid #ff6f20; border-right: 3px solid #ff6f20; margin: 0 auto; max-width: 650px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;">
+        <table class="layout" cellpadding="0" align="center" style="background: #ffffff; border-collapse: collapse; margin: 0 auto; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;">
             <tr>
                 <td class="row content" style="font-size: 0; padding: 0 0; text-align: center;">
-                    <div class="column" style="display: inline-block; font-size: 14px; max-width: 600px; vertical-align: top; width: 100%;">
+                    <div class="column" style="display: inline-block; font-size: 14px; max-width: 650px; vertical-align: top; width: 100%;">
                         <table width="100%" style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0;">
                             <tr>
                                 <td class="cell" style="padding: 0; text-align: left;">
@@ -41,7 +41,7 @@
     </p>
 </div>
 
-                                    <h2 style="Margin: 2em 0 0.5em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 18px; font-weight: 300; line-height: 28px; margin: 15px 0 5px; text-align: center;">Акция дня</h2>
+                                    <h2 style="Margin: 2em 0 0.5em 0; color: #ffc526; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 22px; font-weight: bold; line-height: 28px; margin: 15px 0 5px; text-align: center;">АКЦИЯ ДНЯ</h2>
 <div class="main-coupon coupon" style="border: 1px solid #CCCCCC;">
     <p class="title" style="Margin: 1em 0; border-bottom: 1px solid #CCCCCC; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 24px; font-weight: bold; height: auto; line-height: 22px; margin: 0; overflow: hidden; padding: 7px 5px; text-align: left;">
         <a href="http://amur.net/kupon/deal/kompyuternaya-tomografiya-v-gorodskoy-klinicheskoy-bolnice-1" style="color: #000000 !important; text-decoration: none;">Компьютерная томография в&#160;Амурской областной клинической больнице</a>
@@ -65,7 +65,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/kompyuternaya-tomografiya-v-gorodskoy-klinicheskoy-bolnice-1" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/kompyuternaya-tomografiya-v-gorodskoy-klinicheskoy-bolnice-1" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -79,11 +79,11 @@
     </div>
 </div>
 
-    <h2 style="Margin: 2em 0 0.5em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 18px; font-weight: 300; line-height: 28px; margin: 15px 0 5px; text-align: center;">Текущие акции</h2>
+    <h2 style="Margin: 2em 0 0.5em 0; color: #ffc526; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 22px; font-weight: bold; line-height: 28px; margin: 15px 0 5px; text-align: center;">ТЕКУЩИЕ АКЦИИ</h2>
     <div class="coupons-wrapper" style="margin: 0 -10px;">
         <table width="100%" class="coupons-table" style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0;">
             <tr>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/87cc33fbc5f6630ab43cf4fe0500e555-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -108,7 +108,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </td>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/d3d545232fbad64b1e4206983f2f7f2c-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -147,7 +147,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -164,7 +164,7 @@
             </tr>
 
             <tr>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/87cc33fbc5f6630ab43cf4fe0500e555-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -189,7 +189,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </td>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/d3d545232fbad64b1e4206983f2f7f2c-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -228,7 +228,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -245,7 +245,7 @@
             </tr>
 
             <tr>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/87cc33fbc5f6630ab43cf4fe0500e555-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -270,7 +270,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/manikyur-i-pedikyur-s-pokrytiem-gel-lakom-ot-ksenii-bortnovskoy-bonus" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -284,7 +284,7 @@
                         </div>
                     </div>
                 </td>
-                <td style="padding: 0 10px 10px; vertical-align: top; width: 50%;">
+                <td style="padding: 0 10px 20px; vertical-align: top; width: 50%;">
                     <div class="coupon" style="border: 1px solid #CCCCCC;">
                         <a href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" style="color: #000000 !important; text-decoration: none;">
                             <img src="http://amur.net/kupon/ngximage/crop-760x366/uploads/d3d545232fbad64b1e4206983f2f7f2c-1140x550.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: 0; width: 100%;"/>
@@ -309,7 +309,7 @@
     <td valign="top" width="auto" style="padding:10px 30px; background-color:#3399ff;">
     <![endif]-->
 
-    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #FF5F06; border-radius: 2px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 30px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
+    <a class="button" href="http://amur.net/kupon/deal/kosmetologicheskie-uslugi-v-salone-krasoty-calypso" target="_blank" style="background-color: #ffc526; border-radius: 30px; color: #ffffff !important; display: inline-block; font-family: 'helvetica', arial, sans-serif; font-size: 10px; font-weight: bold; letter-spacing: 1.2px; line-height: 1.2em; min-width: 40px; padding: 10px 15px; text-align: center; text-decoration: none; text-transform: uppercase;"><span style="color: #ffffff;">ПОСМОТРЕТЬ</span></a>
 
     <!--[if (gte mso 9)|(IE)]>
     </td>
@@ -331,7 +331,7 @@
     <tr>
         <td class="contacts" style="padding: 15px 0; vertical-align: top; width: 70%;">
             <p style="Margin: 1em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; margin: 0; padding: 0; text-align: left;"> По&#160;всем вопросам обращаться в&#160;службу поддержки: </p>
-            <p style="Margin: 1em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; margin: 0; padding: 0; text-align: left;"> +7 (4162) 55-99-77 | <a href="mailto:kupon@amur.net" style="color: #000000 !important; text-decoration: none;"><span style="color: #FF5F06;">kupon@amur.net</span></a> </p>
+            <p style="Margin: 1em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; margin: 0; padding: 0; text-align: left;"> +7 (4162) 55-99-77 | <a href="mailto:kupon@amur.net" style="color: #000000 !important; text-decoration: none;"><span style="color: #ffc526;">kupon@amur.net</span></a> </p>
             <p style="Margin: 1em 0; color: #000000; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 14px; font-weight: 300; line-height: 22px; margin: 0; padding: 0; text-align: left;"> Время работы: Пн. &#8212;&#160;Пт. с&#160;9 до&#160;18 </p>
         </td>
         <td class="social" style="padding: 15px 0; vertical-align: middle; width: 30%;">
@@ -353,12 +353,12 @@
             </tr>
             <tr>
                 <td class="row" style="font-size: 0; padding: 0; text-align: center;">
-                    <div class="column" style="display: inline-block; font-size: 14px; max-width: 600px; vertical-align: top; width: 100%;">
+                    <div class="column" style="display: inline-block; font-size: 14px; max-width: 650px; vertical-align: top; width: 100%;">
                         <table width="100%" style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0;">
                             <tr>
                                 <td class="cell" style="padding: 0; text-align: left;">
-                                    <p class="credits" style="Margin: 0 0 1em 0; color: #999999; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 16px; text-align: center;">Вы&#160;получили это письмо, потому что были подписаны на&#160;информационную рассылку от&#160;сервиса <a href="http://amur.net" style="color: #000000 !important; text-decoration: none;"><span style="color: #FF5F06;">Amur.net</span></a> Купоны при регистрации на&#160;сайте Amur.net согласно пункту 1.6 правил сайта.</p>
-<p class="credits" style="Margin: 0 0 1em 0; color: #999999; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 16px; text-align: center;">Если вы&#160;не&#160;хотите получать эту рассылку, нажмите здесь <a class="unsubscribe" href="{$unsubscribe}" style="color: #FF5F06 !important; text-decoration: none;">Отписаться</a></p>
+                                    <p class="credits" style="Margin: 0 0 1em 0; color: #999999; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 16px; text-align: center;">Вы&#160;получили это письмо, потому что были подписаны на&#160;информационную рассылку от&#160;сервиса <a href="http://amur.net" style="color: #000000 !important; text-decoration: none;"><span style="color: #ffc526;">Amur.net</span></a> Купоны при регистрации на&#160;сайте Amur.net согласно пункту 1.6 правил сайта.</p>
+<p class="credits" style="Margin: 0 0 1em 0; color: #999999; display: block; font-family: 'helvetica', arial, sans-serif; font-size: 12px; font-weight: 300; line-height: 16px; text-align: center;">Если вы&#160;не&#160;хотите получать эту рассылку, нажмите здесь <a class="unsubscribe" href="{$unsubscribe}" style="color: #ffc526 !important; text-decoration: none;">Отписаться</a></p>
 
                                 </td>
                             </tr>
