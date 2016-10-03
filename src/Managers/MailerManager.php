@@ -15,7 +15,7 @@ class MailerManager extends Manager {
     public function createMailerLiteDriver()
     {
         $view = view($this->app['config']['mailer.htmlTemplate']);
-        $dataSource = $this->app['config']['mailer.dataSource'];
+        $dataSource = new $this->app['config']['mailer.dataSource'];
         return new \Amurnet\Mailer\Adapters\MailerLite($this->app['config']['mailer.providers.MailerLite'], $view, $dataSource);
     }
 

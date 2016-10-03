@@ -14,7 +14,7 @@ return [
     /**
      * Data sources injected in mail html template
      */
-    'dataSource' => \Kupon\Coupon::class,
+    'dataSource' => '',
 
     /**
      * Providers list options
@@ -23,11 +23,11 @@ return [
         'MailerLite' => [
             'apiKey' => 'f32b109759b3f5a48c6c9d75b50f6515',
             'apiUrl' => 'https://api.mailerlite.com/api/v2/',
-            'groups' => [4745441],
-            'from' => 'seo@amur.net',
-            'from_name' => 'Amurnet',
-            'subject' => 'Амурнет купоны',
-            'plainText' => 'Test message, but you can\'t watch this on your device. You can {$unsubscribe} or open mail here: {$url}',
+            'groups' => [],
+            'from' => '',
+            'from_name' => '',
+            'subject' => '',
+            'plainText' => '',
         ],
 
         'Mailigen' => [

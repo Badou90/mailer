@@ -17,6 +17,10 @@
   "require": {
     "php": ">=5.6.0",
     "illuminate/support": "5.2.*",
-    "guzzlehttp/guzzle": "^6.2"
-  }
+    "guzzlehttp/guzzle": "^6.2",
+    "amurnet/image-filter": "^0.2.0"
+  },
+  "repositories": [
+    { "type": "vcs", "url": "git@git.amur.net:laravel/amurnet-image-filter.git" }
+  ]
 }

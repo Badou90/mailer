@@ -6,6 +6,7 @@ use Illuminate\View\View;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Amurnet\Mailer\Contracts\MailerContract;
+use Amurnet\Mailer\Contracts\DataSourceContract;
 use Amurnet\Mailer\Exceptions\ApiKeyIsEmptyException;
 use Amurnet\Mailer\Exceptions\ApiUrlIsEmptyException;
 use Amurnet\Mailer\Exceptions\GroupNotExistException;
@@ -31,16 +32,22 @@ class MailerLite implements MailerContract {
     protected $htmlView;
 
     /**
-     * Data source class name for mail template
-     * @var String
+     * Data model
+     * @var Illuminate\Database\Eloquent\Model
      */
-    protected $dataSource;
+    protected $dataModel;
+
+    /**
+     * Data for mail template
+     * @var Collection
+     */
+    protected $dataSet;
 
     /**
      * Constructor for MailerLite adapter
      * @param string $apiKey api key for mailerlite service
      */
-    public function __construct(array $config, View $view, $dataSource = null)
+    public function __construct(array $config, View $view, DataSourceContract $dataModel = null)
     {
         if(is_null($config['apiKey']))
             throw new ApiKeyIsEmptyException('Api key is not provided');
@@ -50,7 +57,8 @@ class MailerLite implements MailerContract {
 
         $this->config = $config;
         $this->htmlView = $view;
-        $this->dataSource = $dataSource;
+        $this->dataModel = $dataModel;
+        $this->dataSet = $dataModel->getProvidedData();
         $this->client = new Client(['headers' => ['X-MailerLite-ApiKey' => $config['apiKey']], 'base_uri' => $config['apiUrl']]);
     }
 
@@ -60,9 +68,9 @@ class MailerLite implements MailerContract {
      */
     public function createCampaigns()
     {
-        $groups = $this->getGroupsList();
-
         // TODO add groups existense check (get groups from config and search them in mailerlite-provided groups list)
+        // $groups = $this->getGroupsList();
+
         $response = $this->client->request('POST', 'campaigns', [
             'form_params' => [
                 'type' => 'regular',
@@ -82,7 +90,8 @@ class MailerLite implements MailerContract {
      */
     public function addMailTemplateToCampaign($campagn_id)
     {
-        $data = '';
+        $data = $this->dataSet;
+
         $response = $this->client->request('PUT', "campaigns/{$campagn_id}/content", [
             'form_params' => [
                 'html' => $this->htmlView->with($data)->render(),
@@ -122,7 +131,7 @@ class MailerLite implements MailerContract {
     {
         $campaign_id = $this->createCampaigns();
         $this->addMailTemplateToCampaign($campaign_id);
-        $this->startCampaigns($campaign_id);
+        // $this->startCampaigns($campaign_id);
     }
 
     /**
