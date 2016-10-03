@@ -11,7 +11,7 @@ class SendMail extends Command {
      * Console command signature
      * @var string
      */
-    protected $signature = 'mailer:start {usersbase?}';
+    protected $signature = 'mailer:start';
 
     /**
      * Console command description
