@@ -131,7 +131,7 @@ class MailerLite implements MailerContract {
     {
         $campaign_id = $this->createCampaigns();
         $this->addMailTemplateToCampaign($campaign_id);
-        // $this->startCampaigns($campaign_id);
+        $this->startCampaigns($campaign_id);
     }
 
     /**
