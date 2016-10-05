@@ -74,7 +74,7 @@ class MailerLite implements MailerContract {
                 'subject' => $this->config['subject'],
                 'from' => $this->config['from'],
                 'from_name' => $this->config['from_name'],
-                'groups' => $this->config['groups'],
+                'groups' => [$this->config['groups']],
             ],
         ]);
 
