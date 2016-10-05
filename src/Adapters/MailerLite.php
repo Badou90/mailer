@@ -68,9 +68,6 @@ class MailerLite implements MailerContract {
      */
     public function createCampaigns()
     {
-        // TODO add groups existense check (get groups from config and search them in mailerlite-provided groups list)
-        // $groups = $this->getGroupsList();
-
         $response = $this->client->request('POST', 'campaigns', [
             'form_params' => [
                 'type' => 'regular',
@@ -81,7 +78,7 @@ class MailerLite implements MailerContract {
             ],
         ]);
 
-        return $this->checkResponse($response)->id;
+        return $this->decodeResponse($response)->id;
     }
 
     /**
@@ -99,7 +96,7 @@ class MailerLite implements MailerContract {
             ],
         ]);
 
-        $response = $this->checkResponse($response);
+        $response = $this->decodeResponse($response);
     }
 
     /**
@@ -110,17 +107,7 @@ class MailerLite implements MailerContract {
     {
         $response = $this->client->request('POST', "campaigns/{$campaign_id}/actions/{$action}");
 
-        $response = $this->checkResponse($response);
-    }
-
-    /**
-     * Get user groups list
-     * @return array User groups list
-     */
-    public function getGroupsList()
-    {
-        $response = $this->client->request('GET', 'groups');
-        return json_decode($response->getBody()->getContents());
+        $response = $this->decodeResponse($response);
     }
 
     /**
@@ -134,12 +121,23 @@ class MailerLite implements MailerContract {
         $this->startCampaigns($campaign_id);
     }
 
+    public function addUserToGroup($user)
+    {
+        $response = $this->client->request('POST', "groups/{$this->config['groups']}/subscribers", [
+            'form_params' => [
+                'email' => $user,
+            ],
+        ]);
+
+        $response = $this->decodeResponse($response);
+    }
+
     /**
      * Check service response for errors
      * @param  Response $response response from service
      * @return Array              decoded response
      */
-    protected function checkResponse(Response $response)
+    protected function decodeResponse(Response $response)
     {
         $response = json_decode($response->getBody()->getContents());
 
