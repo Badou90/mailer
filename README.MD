@@ -26,7 +26,7 @@ All new adapters must be registered in `MailerManager`, then you can change curr
 
 ## Overriding template
 
-You can override template by changing view file in your project (in packages folder) or simply change config option
+You can override default template by changing config option 'template' from config file
 
 ## Providing data sources
 

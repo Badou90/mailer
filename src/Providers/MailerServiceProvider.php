@@ -28,7 +28,7 @@ class MailerServiceProvider extends ServiceProvider {
 
         $viewsPath = __DIR__ . '/../../views';
         $this->loadViewsFrom($viewsPath, 'mailer');
-        $this->publishes([$viewsPath => resource_path('views/vendor/mailer')], 'views');
+        // $this->publishes([$viewsPath => resource_path('views/vendor/mailer')], 'views');
 
         $this->commands(SendMail::class);
     }
