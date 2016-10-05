@@ -2,7 +2,6 @@
   "type": "package",
   "name": "amurnet/mailer",
   "description": "Package for amurnet mail sender",
-  "version": "0.0.1",
   "authors": [
       {
           "name": "Vyacheslav Goriachikh",
