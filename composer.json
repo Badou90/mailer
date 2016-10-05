@@ -22,6 +22,5 @@
   },
   "repositories": [
     { "type": "vcs", "url": "git@git.amur.net:laravel/amurnet-image-filter.git" }
-  ],
-  "minimum-stability": "dev"
+  ]
 }
